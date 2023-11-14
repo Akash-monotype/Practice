@@ -18,7 +18,7 @@ body {
     padding: 20px;
 }
 
-.container a.icon {
+.container a.container__icon {
    display: none;
    position: absolute;
    right:0;
@@ -26,7 +26,7 @@ body {
    background-color: black;
 }
 
-.active {
+.container__active {
     background-color: green;
 }
 
@@ -35,11 +35,11 @@ body {
     background: white;
 }
 
-.container a.icon:hover{
+.container a.container__icon:hover{
     background-color: white;
 }
 
-.container #myLinks {
+.container #container__myLinks {
     color: white;
     background-color: black;
 }
@@ -93,7 +93,7 @@ body {
 }
 
 @media only screen and (max-device-width : 320px) {
-    .container a.icon {
+    .container a.container__icon {
         display: block;
     }
     .container {
@@ -105,14 +105,14 @@ body {
     .container a {
         display: block;
     }
-    .container #myLinks {
+    .container #container__myLinks {
         display: none;
         background-color: black;
     }
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 720px) {
-    .container a.icon {
+    .container a.container__icon {
         display: block;
     }
     .container {
@@ -124,7 +124,7 @@ body {
     .container a {
         display: block;
     }
-    .container #myLinks {
+    .container #container__myLinks {
         display: none;
         background-color: black;
     }
