@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <a href="#" class="active">Logo</a>
+        <div id="myLinks">
+            <a href="">News</a>
+            <a href="">Contact</a>
+            <a href="">About</a>
+        </div>
+        <a href="#" class="icon" onclick="showNav()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <div id="mySidebar" class="sidebar">
+        <a href="#" class="closebtn" onclick="openNav()">×</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+    </div>
+    <div id = 'main'>
+        <button class="openbtn" onclick="openNav()">Show Side Bar</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
